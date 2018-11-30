@@ -7,7 +7,6 @@
 <meta name="robots" content="INDEX, FOLLOW">
 </head>
 
-
 	<style type="text/css">
 	<!--
 	    a:link { color:#0307BA; text-decoration:underline; font-size : 11px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
@@ -17,7 +16,7 @@
 		p { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	font-size: 11px; color:#000000}
 		td { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	font-size: 11px; color:#000000}
 
- 		H2 { color:#5E5A54; text-decoration:none; font-size : 15px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif}
+ 		H2 { color:#5E5A54; text-decoration:none; font-size : 16px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif}
  		H3 { color:#5E5A54; text-decoration:none; font-size : 13px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif}
 
 		ul { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	font-size: 11px; color:#000000}
