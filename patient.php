@@ -25,6 +25,9 @@
   State:<br>
   <input type="text" name="state" placeholder="Ex. CA"><br><br>
 
+  Phone Number:<br>
+  <input type="text" name="phoneNumber" placeholder="Ex. 123-456-7890"><br><br>
+
   Date of Birth:<br>
   <input type="text" name="dob" placeholder="Ex. 01/01/1990"><br><br>
 
