@@ -48,7 +48,7 @@
 <td valign="top" align="center">
 
 
-<table border="0" bgcolor="ffffff" width="1000" align="center" cellpadding="10" cellspacing="0">
+<table border="0" bgcolor="ffffff" width="700" align="center" cellpadding="10" cellspacing="0">
 <tr>
 <td colspan="2">
 
@@ -58,7 +58,7 @@
 
 <td valign="top">
 
-	<table border="0" cellpadding="6" cellspacing="1" align="left" bgcolor="ffffff" width="500">
+	<table border="0" cellpadding="6" cellspacing="1" align="left" bgcolor="ffffff" width="700">
 	<td bgcolor="#00008b">
 	<a href="patient.php" class="mainnav"><b>Patient Record</b></a>
 	</td>
@@ -71,7 +71,7 @@
 	<table>
 </td>
 
-<tr><td valign="top">
+<tr ><td valign="top" align="center" colspan="3">
 
 
 
