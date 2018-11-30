@@ -61,13 +61,13 @@
 
 	<table border="0" cellpadding="6" cellspacing="1" align="left" bgcolor="ffffff" width="500">
 	<td bgcolor="#00008b">
-	<a href="index.php" class="mainnav"><b>Patient Record</b></a>
+	<a href="patient.php" class="mainnav"><b>Patient Record</b></a>
 	</td>
 	<td bgcolor="#00008b">
-	<a href="apply.php"  class="mainnav"><b>Physician Scheduler</b></a>
+	<a href="scheduler.php"  class="mainnav"><b>Physician Scheduler</b></a>
 	</td>
 	<td bgcolor="#00008b">
-	<a href="siteform.php"  class="mainnav"><b>Insurance Billing</b></a>
+	<a href="insurance.php"  class="mainnav"><b>Insurance Billing</b></a>
 	</td>
 	<table>
 </td>
