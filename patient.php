@@ -2,7 +2,7 @@
 
 
 <?php include ("healthcareheader.php") ?>
-
+<link rel="stylesheet" href="style.css">
 <body>
 <h3>Patient Records</h1>
 <p>Enter patent information below and hit enter</p>
