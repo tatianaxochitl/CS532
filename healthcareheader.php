@@ -8,39 +8,6 @@
 </head>
 
 
-	<style type="text/css">
-	<!--
-	    a:link { color:#0307BA; text-decoration:underline; font-size : 11px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
-		a:hover {  color: #B38303; text-decoration:underline; font-size : 11px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
-
-
-		p { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	font-size: 11px; color:#000000}
-		td { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	font-size: 11px; color:#000000}
-
- 		H2 { color:#5E5A54; text-decoration:none; font-size : 15px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif}
- 		H3 { color:#5E5A54; text-decoration:none; font-size : 13px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif}
-
-		ul { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	font-size: 11px; color:#000000}
-
-		th
-   		{
-   		font-family: Verdana, Arial, Helvetica, sans-serif;
-   		font-size: 12px;
-   		color: #745C41;
-   		font-weight: bold;
-   		}
-
-		.red { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;font-size: 13px; color:#FF0000}
-
-		.mainnav {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 13px; color:#FFFFFF;}
-		a.mainnav {text-decoration:none; color:#FFFFFF; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 13px;}
-		a.mainnav:visited {text-decoration:none; color:#FFFFFF; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 13px;}
-		a.mainnav:hover {text-decoration:underline; color:#FFFFFF; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 13px;}
-
-	-->
-	</style>
-
-
 <body background="hospital-new.jpg"  marginwidth="0" leftmargin="0" >
 
 
@@ -49,9 +16,9 @@
 <td valign="top" align="center">
 
 
-<table border="0" bgcolor="ffffff" width="1000" align="center" cellpadding="10" cellspacing="0">
+<table border="0" bgcolor="ffffff" width="700" align="center" cellpadding="10" cellspacing="0">
 <tr>
-<td colspan="2">
+<td>
 
 <a href="index.php"><img src="CCTT Banner.jpg" alt="CCTT Healthcare" border=0></a>
 </td>
@@ -59,7 +26,7 @@
 
 <td valign="top">
 
-	<table border="0" cellpadding="6" cellspacing="1" align="left" bgcolor="ffffff" width="500">
+	<table border="0" cellpadding="6" cellspacing="1" align="left" bgcolor="ffffff" width="700">
 	<td bgcolor="#00008b">
 	<a href="patient.php" class="mainnav"><b>Patient Record</b></a>
 	</td>
@@ -72,7 +39,7 @@
 	<table>
 </td>
 
-<tr><td valign="top">
+<tr><td align = "center" valign="top" colspan ="3">
 
 
 
