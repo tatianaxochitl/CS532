@@ -18,4 +18,7 @@ mysql_select_db (Health_Care_Database);
 $MainQuery = mysql_query ("INSERT INTO Electronic__Patient_Record
 			(patient_id, patient_name, patient_phone, patient_address, patient_dob, patient_gender, physician_id) Values
 			('$_POST[patientID]', '$_POST[name]', '$_POST[phone]', '$_POST[address]', '$_POST[dob]', '$_POST[gender]', '$_POST[physicianID]')");
+$regid = mysql_insert_id();			
+
+header ("Location: patient.php");
 ?>
