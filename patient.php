@@ -6,7 +6,10 @@
 <body>
 <h3>Patient Records</h1>
 <p>Enter patent information below and hit enter</p>
-<form action="/action_page.php">
+<form action="/action.php">
+  Physician ID:<br> 
+  <input type="text" name="physicianID" placeholder="Ex. 123"><br> 
+  
   First name:<br>
   <input type="text" name="firstname" placeholder="Ex. John"><br>
 
