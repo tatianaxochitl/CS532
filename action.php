@@ -3,30 +3,29 @@
 <?php include  ("healthcareheader.php") ?>
 
 <?php 
-mysql_connect ('healthcareproj.cbo9k5pnt3ku.us-west-2.rds.amazonaws.com', 'admin', 'CS532health');
+$con =mysqli_connect ('localhost:3306', 'admin', 'yourpass');
 
   foreach ($_POST as $key => $value) {
-    $_POST[$key] = mysql_real_escape_string($value);
+    $_POST[$key] = mysqli_real_escape_string($con, $value);
   }
 
   foreach ($_GET as $key => $value) {
-    $_GET[$key] = mysql_real_escape_string($value);
+    $_GET[$key] = mysqli_real_escape_string($con, $value);
   }
  ?>
 
  
  <?php 
  //this adds two last name and first name together
- $name = $firstname . $lastname; 
- 
-?> 
+ $name = "$_POST[firstname]"." $_POST[lastname]"; 
+ ?> 
 
 <?php
 // this adds the address together 
-$address = $street . $city . $state
+$address = "$_POST[street]"." $_POST[city]"." $_POST[state]";
 ?>
 
-<h3> Please confirm that the information below is correct before proceeding <h3> 
+<h3> Please confirm that the information below is correct before proceeding </h3> 
 
 <?php
 print ("Your entered data is below.  Click <i>'back'</i> on your browser to make corrections, or proceed by clicking below.<P>
@@ -40,7 +39,7 @@ print ("Your entered data is below.  Click <i>'back'</i> on your browser to make
 <tr>
 <td valign=top align=right><b>Patient Address:</b></td><td valign=top>$address</td></tr>
 <tr>
-<td valign=top align=right><b>Patient Phone Number:</b></td><td valign=top>$_POST[phone]></tr>
+<td valign=top align=right><b>Patient Phone Number:</b></td><td valign=top>$_POST[phone]</td></tr>
 <tr>
 <td valign=top align=right><b>Patient Date of Birth:</b></td><td valign=top>$_POST[dob]</td></tr>
 <tr>

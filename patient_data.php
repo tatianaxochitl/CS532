@@ -1,10 +1,10 @@
-<?php $title="Insurance"?>
+<?php $title="Patient Data"?>
 <?php include ("healthcareheader.php") ?>
 
-<h3>Insurance Billing Informaton</h3>
+<h3>Patient Data</h3>
 <table border = "1">
 <tr>
-<td>Patient ID</td><td>Insurance Carrier</td><td>Insurance Billing Address</td><td>Status</td> 
+<td>Patient ID</td><td>Name</td><td>Phone</td><td>Address</td><td>Date Of Birth</td><td>Gender</td><td>Physician ID</td>
 </tr>
 <?php
    $dbhost = 'localhost:3306';
@@ -17,7 +17,7 @@
       die("Could not connect: " . mysqli_error());
    }
    
-   $sql = 'SELECT patient_id, carrier_name, carrier_address, carrier_status FROM Insurance_Carrier';
+   $sql = 'SELECT patient_id, patient_name, patient_phone, patient_address, patient_dob, patient_gender, physician_id FROM Electronic_Patient_Record';
    $retval = mysqli_query($conn,$sql);
    
    
@@ -29,7 +29,10 @@
       echo "<tr><td>{$row[0]}</td>".
          "<td>{$row[1]}</td>".
          "<td>{$row[2]}</td>".
-         "<td>{$row[3]}</td>";
+         "<td>{$row[3]}</td>".
+         "<td>{$row[4]}</td>".
+         "<td>{$row[5]}</td>".
+         "<td>{$row[6]}</td>";
    }
    
    mysqli_free_result($retval);
